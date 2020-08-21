@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    background-image: url(images/dicebg.jpg);
-    background-size: 100px;
+    background-image: url(images/dice/dicebg.jpg);
+    background-size: 200px;
     background-color: rgba(170, 133, 63, 0.6);
     background-repeat: repeat;
     background-blend-mode: multiply;

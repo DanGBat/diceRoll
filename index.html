@@ -17,16 +17,22 @@
 
         <div class="diceBox">
             <div class="diceLeft">
-                <img src="images/dice1.png" id="leftDice" alt="dice with one spot">
+                <img src="images/dice/dice1.png" id="leftDice" alt="dice with one spot">
             </div>
             <div class="diceRight">
-                <img src="images/dice1.png" id="rightDice" alt="dice with one spot">
+                <img src="images/dice/dice1.png" id="rightDice" alt="dice with one spot">
             </div>
         </div>
 
         <div class="buttonWrapper">
 
-            <button class="rollButton" onclick="throwDice(); playDiceRoll('sounds/dice.wav')">ROLL</button>
+            <button class="rollButton"
+                
+                onclick="rotateDiceAnimation(); throwDice(); playDiceRoll('sounds/dice.wav');"
+
+
+
+            >ROLL</button>
         </div>
 
     </div>
